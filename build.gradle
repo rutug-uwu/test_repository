@@ -19,7 +19,8 @@ dependencies {
             "io.rest-assured:rest-assured:$restAssuredVersion",
             "io.rest-assured:json-schema-validator:$restAssuredVersion",
             "io.qameta.allure:allure-rest-assured:$allureVersion",
-            "org.assertj:assertj-core:3.27.6"
+            "org.assertj:assertj-core:3.27.6",
+            'com.github.curious-odd-man:rgxgen:1.3'
 }
 
 tasks.withType(JavaCompile) {
